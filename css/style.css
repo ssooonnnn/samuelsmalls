@@ -360,6 +360,14 @@
     width: 47.333%;
     height: auto;
 }
+.banner .header .logo a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.banner .header .logo a svg{
+    width: 100%;
+}
 .banner .header .hamburger{
     width: 30px;
     height: 20px;
