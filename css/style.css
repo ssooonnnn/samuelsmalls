@@ -1253,7 +1253,7 @@ height: 30px;
         width: 30px;
         height: 20px;
         position: absolute;
-        top: 40.404%;
+        top:36.404%;
         right: 0;
         z-index: 999;
         padding-right:7.812% ;
@@ -1296,6 +1296,12 @@ height: 30px;
         padding: 0 100px;
         margin-bottom: 20px;
         font-weight: 500;
+    }
+    .sec .main li{
+        margin-right: 25px;
+    }
+    .sec .main li:last-child{
+        margin-right: 0;
     }
     .sec .container{
         width: 100%;
@@ -1843,16 +1849,12 @@ height: 30px;
         font-size: 1.125rem;
     }
     .slide-menu .menu-r a {
-        font-size: 1.125rem;
+        font-size: 16px;
+        font-weight: 500;
     }
     .slide-menu .menu-r {
         margin-top: 0;
     }
-    /* .sec .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-    } */
     .sec .img-box p{
         font-size: 16px;
     }
@@ -1860,18 +1862,7 @@ height: 30px;
         width: 47.333%;
         height: auto;
     }
-    /* .sec .menu-box {
-        width: 80%;
-    }
-    .sec .main{
-        padding: 0;
-    }
-    .sec .sub li{
-        margin-right: 10px;
-    }
-    .sec .container h1{
-        font-size: 16px; 
-    } */
+
     .sec .container > .con-1{
         padding-top: 40.148%;
     }
@@ -1933,19 +1924,32 @@ height: 30px;
     .sec .main{
         padding: 0;
     }
-
+    .sec .menu ul{
+        justify-content: center;
+    }
+    .sec .sub li {
+        margin-right: 20px;
+    }
     .sec .container h1{
         font-size: 16px; 
     }
-
+    .img-7,.img-8,.img-9{
+        width: calc(33.333% - 4px);
+    }
     .img-10 .img,.img-11 .img,.img-12 .img,.img-13 .img{
         height: auto;
     }
     .img-14,.img-15,.img-16{
-        width: calc(33.333% - 5px);
+        width: calc(33.333% - 4px);
     }
     .img-14 .img,.img-15 .img,.img-16 .img{
         height: auto;
+    }
+    .img-17,.img-18,.img-19{
+        width: calc(33.333% - 4px);
+    }
+    .img-20,.img-21,.img-22{
+        width: calc(33.333% - 4px);
     }
 }
 @media (max-width:500px){
@@ -1958,16 +1962,22 @@ height: 30px;
     .sec .sub {
         flex-wrap: wrap;
     }
-    .sec .sub li{
-        margin-right: 20px;
-    }
     .sec .sub li:nth-child(4),.sec .sub li:last-child{
         margin-right: 0;
     }
     .sub li a{
         font-size: 14px;
     }
-     .sec .head p {
+    .sec .head p {
+        font-size: 11px;
+    }
+    .con-3 .img-box{
+        align-items: flex-start;  
+    }
+    .sec .img-box p{
+        white-space: normal;
+    }
+    .slide-menu .menu-r a {
         font-size: 11px;
     }
     
