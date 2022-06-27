@@ -1944,6 +1944,9 @@ height: 30px;
     .sec .container{
         padding-top:30% ;
     }
+    .sec .img-box p {
+        font-size: 14px;
+    }
     .sec .sub {
         flex-wrap: wrap;
     }
@@ -1955,6 +1958,9 @@ height: 30px;
     }
     .sub li a{
         font-size: 14px;
+    }
+     .sec .head p {
+        font-size: 11px;
     }
     
 }
